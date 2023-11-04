@@ -26,7 +26,7 @@ body {
 	--color-bg: #000;
 	--color-link: #fff;
 	--color-link-hover: #5d5050;
-	--color-info: #5d5050;
+	--color-info: #fafafa;
 	--color-menu: #fff;
 	--color-menu-hover: #fff;
 	--color-title: #fff;
@@ -388,8 +388,14 @@ main {
 }
 
 .info {
-	margin: 0;
+	margin: 10;
+	padding-left: 100em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	color: var(--color-info);
+	background-color: #00ac53;
+	background: rgba(97, 158, 111, 0.5);
+	text-wrap: nowrap;
 	grid-area: info;
 	align-self: end;
 	justify-self: end;
